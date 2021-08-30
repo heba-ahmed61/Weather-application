@@ -1,0 +1,38 @@
+input[type="text"]{
+
+    display:block;
+    position:relative;
+    z-index:2;
+    border:none;
+    outline:none;
+    margin-top:15px;
+    border-radius:0 0 16px 16px;
+    margin:30px auto ;
+    width:70%;
+    padding:15px;
+    background-color:rgba(255,255,255,0.8)
+    
+    
+    
+}
+button{
+
+    position:relative;
+    z-index:2;
+    display:block;
+    margin:50px auto 20px ;
+    padding:10px 30px;
+    background-color:black;
+    color:white;
+    font-size:19px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+
+}
+button:hover{
+
+    background-color:white;
+    color:black;
+    transition:all .9s ease;
+}
